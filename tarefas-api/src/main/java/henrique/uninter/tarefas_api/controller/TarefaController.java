@@ -1,7 +1,7 @@
 package henrique.uninter.tarefas_api.controller;
 
 
-import henrique.uninter.tarefas_api.repository.TarefaRepository; // ✅ corrigido
+import henrique.uninter.tarefas_api.repository.TarefaRepository;
 
 import henrique.uninter.tarefas_api.model.Tarefa;
 import org.springframework.http.ResponseEntity;
@@ -65,4 +65,5 @@ public class TarefaController {
         }
     }
 }
+
 
