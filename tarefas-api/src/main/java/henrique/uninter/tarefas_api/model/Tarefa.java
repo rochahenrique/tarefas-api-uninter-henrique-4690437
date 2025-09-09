@@ -2,7 +2,6 @@ package henrique.uninter.tarefas_api.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
-
 import java.time.LocalDate;
 
 @Entity
@@ -43,4 +42,5 @@ public class Tarefa {
 
     public String getResponsavel() { return responsavel; }
     public void setResponsavel(String responsavel) { this.responsavel = responsavel; }
+
 }
